@@ -29,7 +29,7 @@
 var sensorObj = require('jsupm_mpu9150');
 
 // Instantiate an AK8975 on default I2C bus and address
-var sensor = new sensorObj.AK8975();
+var sensor = new sensorObj.AK8975(6);
 
 // Initialize the device with default values
 sensor.init();

@@ -29,7 +29,7 @@
 var sensorObj = require('jsupm_mpu9150');
 
 // Instantiate an MPU9105 on default I2C bus and address
-var sensor = new sensorObj.MPU9250();
+var sensor = new sensorObj.MPU9250(6);
 
 // Initialize the device with default values
 sensor.init();

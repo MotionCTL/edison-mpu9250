@@ -25,7 +25,7 @@ import time, sys, signal, atexit
 import pyupm_mpu9150 as sensorObj
 
 # Instantiate an MPU60X0 on I2C bus 0
-sensor = sensorObj.MPU60X0()
+sensor = sensorObj.MPU60X0(6)
 
 ## Exit handlers ##
 # This function stops python from printing a stacktrace when you hit control-C
